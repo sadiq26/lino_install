@@ -86,10 +86,11 @@ openssh-server \
 python-setuptools \
 python-dev \
 build-essential \
-python-gudev
+python-gir1.2-gudev-1.0
+sudo apt install python-is-python3
 
-sudo easy_install pip
-sudo python2.7 -m pip install -U platformio
+sudo apt install python3-pip
+sudo pip3 install -U platformio
 sudo rm -rf $HOME/.platformio/
 
 source /opt/ros/$ROSDISTRO/setup.bash
