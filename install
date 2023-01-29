@@ -86,7 +86,8 @@ openssh-server \
 python-setuptools \
 python-dev \
 build-essential \
-python-gir1.2-gudev-1.0
+sudo apt-get install -y gir1.2-gudev-1.0
+
 sudo apt install python-is-python3
 
 sudo apt install python3-pip
